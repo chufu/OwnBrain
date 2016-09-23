@@ -1,0 +1,12 @@
+[package]
+name = "OwnBrain"
+version = "0.1.0"
+authors = ["Eduard Grün <egrn@de.festo.com>"]
+
+[dependencies]
+mysql = "+"
+
+[dependencies.mysql]
+version = "+"
+default-features = false
+features = ["pipe"]
