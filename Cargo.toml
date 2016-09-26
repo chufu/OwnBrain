@@ -1,12 +1,11 @@
 [package]
-name = "OwnBrain"
+name = "own_brain"
 version = "0.1.0"
-authors = ["Eduard Grün <egrn@de.festo.com>"]
+authors = ["Eduard Gruen <eduard.gruen@greenux.de>"]
 
 [dependencies]
-mysql = "+"
 
 [dependencies.mysql]
-version = "+"
+version = "*"
 default-features = false
 features = ["pipe"]
