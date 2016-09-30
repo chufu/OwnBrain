@@ -9,3 +9,6 @@ authors = ["Eduard Gruen <eduard.gruen@greenux.de>"]
 version = "*"
 default-features = false
 features = ["pipe"]
+
+[dependencies.sciter-rs]
+path = "../rust-sciter/"
